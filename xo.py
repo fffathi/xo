@@ -40,6 +40,10 @@ class XoGame:
         else:
             map[X][Y] = "X"
 
+    def check_read_value(self, map, x, y):
+
+        pass
+
     def check(self, map, type):
         resalut = False
         value = "X"
