@@ -53,9 +53,11 @@ class XoGame:
         return resalut
 
     def play(self):
-        while(not self.check(self.map, self.type)):
+        OK = True
+        while(OK):
             self.draw(self.map)
             self.read(self.map, self.type)
+            OK = not self.check(self.map, self.type)
             if self.type == "1":
                 self.type = "2"
             else:
