@@ -1,4 +1,5 @@
-import xo
+import app
 if __name__ == "__main__":
-    obj = xo.XoGame()
-    obj.play()
+    obj = app.App()
+    
+   
