@@ -41,8 +41,8 @@ class XoGame:
             map[X][Y] = "X"
 
     def check_read_value(self, map, x, y):
-
-        pass
+        if x <= 2 and 0 <= x :
+        if y <= 2 and 0 <= y:
 
     def check(self, map, type):
         resalut = False
